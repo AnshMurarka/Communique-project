@@ -1,0 +1,242 @@
+.heading{
+    background-color: black;
+    color:wheat;
+    display: flex;
+    column-gap: 280px;
+    padding: 5px;
+    margin: -8px;
+    font-size: 35px;
+}
+.head1{
+    align-self: center;
+}
+.head2{
+    align-self: center;
+}
+.head3{
+    align-self: center;
+}
+.head4{
+    align-self: flex-end;
+}
+
+
+
+.bar{
+    background-color: red;
+    animation-name: baranimation;
+    animation-duration: 2s;
+}
+@keyframes baranimation {
+    from{
+        width: 0px;
+        height: 5px;
+    }
+    to{
+        width: 100vw;
+        height: 5px;
+    }
+}
+.photo{
+    display: flex;
+    column-gap: 150px;
+    padding: 10px;
+    background-color: black;
+}
+
+
+
+@keyframes fullform {
+        0% {
+         opacity: 0;
+        }
+        25% {
+         opacity: 1;
+         color: aliceblue;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 1;
+            color: yellow;
+        }
+        100% {
+         opacity: 0;
+        }
+}
+.fullform{
+    font-size: 50px;
+   align-self: center;
+   animation: fullform 4s infinite;
+}
+.photo{
+    background-color: black;
+}
+
+
+
+.head1{
+    display: flex;
+    font-size: 50px;
+    background-color: black;
+    color: red;
+    justify-content: center;
+}
+.about{
+    padding: 12px;
+    margin: -8px;
+    background-color: black;
+    font-size: 45px;
+    color: aliceblue;
+}
+.subabout{
+    color: yellow;
+}
+
+.committee{
+    margin: -8px;
+    padding: 150px;
+    display: flex;
+    font-size: 50px;
+    background-color: black;
+    color: red;
+    justify-content: center;
+}
+
+
+.member1{
+    display: flex;
+    font-size: 49px;
+    background-color: black;
+    color: green;
+    column-gap: 300px;
+    margin: -8px;
+    padding: 25px;
+}
+.member1_text{
+    align-self: center;
+}
+.member2{
+    display: flex;
+    font-size: 43px;
+    background-color: black;
+    color: green;
+    justify-content: center;
+    align-self: center;
+    column-gap: 300px;
+    margin: -8px;
+    padding: 25px;
+}
+.member2_text{
+    align-self: center;
+}
+.member3{
+    display: flex;
+    font-size: 51px;
+    background-color: black;
+    color: green;
+    justify-content: center;
+    align-self: center;
+    column-gap: 300px;
+    margin: -8px;
+    padding: 25px;
+}
+.member3_text{
+    align-self: center;
+}
+.member4{
+    display: flex;
+    font-size: 50px;
+    background-color: black;
+    color: green;
+    justify-content: center;
+    align-self: center;
+    column-gap: 300px;
+    margin: -8px;
+    padding: 25px;
+}
+.member4_text{
+    align-self: center;
+}
+
+.description1{
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    font-size: 50px;
+    background-color: black;
+    color: wheat;
+    border: red 5px solid;
+    justify-content: center;
+}
+.content1{
+    background-color: black;
+    color: yellow;
+    padding: 25px;
+    margin: -8px;
+    font-size: 25px;
+}
+
+
+.description2{
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    font-size: 50px;
+    background-color: black;
+    color: wheat;
+    border: red 5px solid;
+    justify-content: center;
+}
+.content2{
+    background-color: black;
+    color: yellow;
+    padding: 25px;
+    margin: -8px;
+    font-size: 25px;
+}
+
+
+.description3{
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    font-size: 50px;
+    background-color: black;
+    color: wheat;
+    border: red 5px solid;
+    justify-content: center;
+}
+.content3{
+    background-color: black;
+    color: yellow;
+    padding: 25px;
+    margin: -8px;
+    font-size: 25px;
+}
+
+.description4{
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    font-size: 50px;
+    background-color: black;
+    color: wheat;
+    border: red 5px solid;
+    justify-content: center;
+}
+.content4{
+    background-color: black;
+    color: yellow;
+    padding: 25px;
+    margin: -8px;
+    font-size: 25px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    margin: -8px;
+    padding: 12px;
+}
